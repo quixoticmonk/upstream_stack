@@ -22,3 +22,7 @@ component "vpc" {
     }
   }
 }
+
+output "vpc_id"{
+  value = component.vpc.vpc_id
+}
